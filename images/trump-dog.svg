@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoon of Donald Trump walking a dog</title>
+  <desc id="desc">A simple vector illustration of a suited man with a comb-over hairstyle walking a small dog on a leash.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eaf4ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="500" fill="url(#sky)"/>
+  <rect x="0" y="420" width="800" height="80" fill="#e6f3e6"/>
+
+  <!-- Person (stylized) -->
+  <g transform="translate(320,180)">
+    <!-- hair comb-over -->
+    <path d="M -6,-26 C 18,-46 52,-36 58,-20 C 32,-18 20,-10 6,-4 Z" fill="#f2c14e"/>
+    <!-- head -->
+    <circle cx="16" cy="-8" r="22" fill="#f8d9c2" stroke="#d2b199" stroke-width="2"/>
+    <!-- body -->
+    <rect x="-4" y="10" width="40" height="70" rx="6" fill="#1f2a44"/>
+    <!-- tie -->
+    <polygon points="16,12 22,26 16,60 10,26" fill="#e63946"/>
+    <!-- left arm to leash -->
+    <path d="M -4,24 C -24,38 -46,44 -66,40" stroke="#1f2a44" stroke-width="8" fill="none"/>
+    <!-- right arm -->
+    <path d="M 36,24 C 52,34 64,44 70,56" stroke="#1f2a44" stroke-width="8" fill="none"/>
+    <!-- legs -->
+    <path d="M 6,80 L 0,120" stroke="#1f2a44" stroke-width="10"/>
+    <path d="M 26,80 L 38,120" stroke="#1f2a44" stroke-width="10"/>
+    <!-- label -->
+    <text x="-18" y="-48" font-family="system-ui, -apple-system, Segoe UI, Roboto" font-size="14" fill="#222">TRUMP</text>
+  </g>
+
+  <!-- Dog -->
+  <g transform="translate(120,360)">
+    <ellipse cx="70" cy="-18" rx="48" ry="28" fill="#5b6c7a"/>
+    <circle cx="115" cy="-28" r="18" fill="#5b6c7a"/>
+    <rect x="40" y="-2" width="12" height="22" rx="3" fill="#4a5965"/>
+    <rect x="86" y="-2" width="12" height="22" rx="3" fill="#4a5965"/>
+    <path d="M 128,-32 l 12,-10 4,14 z" fill="#4a5965"/>
+    <circle cx="122" cy="-30" r="3" fill="#111"/>
+    <!-- leash -->
+    <path d="M 20,-36 C 90,-56 190,-84 254,-112" stroke="#333" stroke-width="2.5" fill="none"/>
+    <!-- collar -->
+    <rect x="104" y="-34" width="22" height="6" rx="3" fill="#e63946"/>
+  </g>
+
+  <!-- shadow -->
+  <ellipse cx="400" cy="430" rx="220" ry="22" fill="#cdd7cf"/>
+</svg>
+
