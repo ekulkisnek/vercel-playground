@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" rx="12" fill="#ffffff"/>
+  <g stroke="#e5e7eb">
+    <path d="M0 340 H800 M0 300 H800 M0 260 H800 M0 220 H800 M0 180 H800 M0 140 H800 M0 100 H800 M0 60 H800"/>
+    <path d="M60 400 V0 M140 400 V0 M220 400 V0 M300 400 V0 M380 400 V0 M460 400 V0 M540 400 V0 M620 400 V0 M700 400 V0"/>
+  </g>
+  <g>
+    <path d="M60 320 L140 300 L220 280 L300 240 L380 260 L460 200 L540 170 L620 130 L700 90 L760 60" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M60 320 L140 300 L220 280 L300 240 L380 260 L460 200 L540 170 L620 130 L700 90 L760 60 L760 340 L60 340 Z" fill="url(#grad)"/>
+    <g fill="#16a34a" stroke="#ffffff" stroke-width="2">
+      <circle cx="60" cy="320" r="5"/>
+      <circle cx="140" cy="300" r="5"/>
+      <circle cx="220" cy="280" r="5"/>
+      <circle cx="300" cy="240" r="5"/>
+      <circle cx="380" cy="260" r="5"/>
+      <circle cx="460" cy="200" r="5"/>
+      <circle cx="540" cy="170" r="5"/>
+      <circle cx="620" cy="130" r="5"/>
+      <circle cx="700" cy="90" r="5"/>
+      <circle cx="760" cy="60" r="5"/>
+    </g>
+  </g>
+</svg>
